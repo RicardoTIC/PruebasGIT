@@ -1,5 +1,7 @@
 
-
+function saludo(){
+    return "Hola";
+}
 
 function calculadora(n1,n2,calculo){
 
