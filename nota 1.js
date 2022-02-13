@@ -1,6 +1,6 @@
 
 
-function obtenerTxt(){
+function obtenerTxt( saludo){
     prompt("Hola !!!");
 
 }
@@ -49,5 +49,17 @@ function calculadora(n1,n2,calculo){
 
 }
 
-let txtNombre = document.getElementById('txtNombre');
-let txtApellido = document.getElementById('txtApellido'); 
+
+function datosPersonales(){
+    let txtNombre = document.getElementById('txtNombre').value;
+    let txtApellido = document.getElementById('txtApellido').value; 
+
+    alert("El nombre es  " +  txtNombre + " El apellido es " + txtApellido);
+
+}
+
+
+
+
+
+
