@@ -1,4 +1,10 @@
 
+
+function obtenerTxt(){
+    prompt("Hola !!!");
+
+}
+
 function saludo(){
     return "Hola";
 }
