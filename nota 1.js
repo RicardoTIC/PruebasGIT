@@ -49,9 +49,3 @@ function calculadora(n1,n2,calculo){
 
 }
 
-let menu = prompt("Ingresa el calculo que deseas");
-let n1 = parseInt( window.prompt("Ingresa un numero 1"));
-let n2 = parseInt( window.prompt("Ingresa el numero 2"));
-
-
-calculadora(n1,n2,menu);
