@@ -49,5 +49,5 @@ function calculadora(n1,n2,calculo){
 
 }
 
-let txtNombre = document.getElementById('txtNombre');
-let txtApellido = document.getElementById('txtApellido'); 
+let txtNombre = document.getElementById('txtNombre').value;
+let txtApellido = document.getElementById('txtApellido').value; 
